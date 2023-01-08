@@ -1,0 +1,27 @@
+{
+  "name": "@rahadiana/shodan-grabber",
+  "version": "0.0.1",
+  "description": "Easy Grab shodan data to JSON , for nodejs",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node ./tes/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahadiana/shodan-grabber.git"
+  },
+  "keywords": ["shodan","scraping","node"],
+  "author": "rahadiana nugraha <rahadiana.nugraha@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rahadiana/shodan-grabber/issues"
+  },
+  "homepage": "https://github.com/rahadiana/shodan-grabber#readme",
+  "dependencies": {
+    "@rahadiana/node_response_standard": "^0.0.1",
+    "axios": "^1.2.2",
+    "puppeteer": "^18.1.0",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-stealth": "^2.11.1"
+  }
+}
