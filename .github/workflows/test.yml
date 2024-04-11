@@ -32,4 +32,4 @@ jobs:
           sleep 10
           npm i
           cd tes
-          node index.js > hasil.json
+          node index.js
